@@ -1,8 +1,12 @@
 # JuniorSOL
 
-**Solana-native Web3 app** for the Junior ecosystem.
+Canonical Solana-adjacent app for JuniorCloud. **JuniorSolana** is the archive name; this repo is the live one.
 
-Swift-adjacent experience with Apple Quick Actions, BitNet 1.58 × 3.0 intelligence, and on-chain capabilities.
+- Loopback only. No hosted RPC from Home automation.
+- Credit-union style local ledger + ternary 1.58 receipts (not a bank).
+- FrameForge2D + UE5 JSON ports live in their repos; this tree only points.
+- Logic bridge: JuniorPiThon / JuniorLLM handshake.
 
-## Correct Naming
-This is the proper repo name (JuniorSOL, not JuniorSolana).
+```bash
+python scripts/sol_cu_prod.py "member share note"
+```
